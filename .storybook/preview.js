@@ -1,5 +1,4 @@
-import React from 'react';
-import { ChakraProvider } from '@chakra-ui/react';
+import React from 'react';import { ChakraProvider } from '@chakra-ui/react';
 
 export const parameters = {
     actions: { argTypesRegex: '^on[A-Z].*' },
@@ -11,4 +10,3 @@ export const parameters = {
     },
 };
 
-export const decorators = [(storyFn) => <ChakraProvider>{storyFn()}</ChakraProvider>];
